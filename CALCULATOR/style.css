@@ -1,0 +1,57 @@
+body{
+    background-image: url("calci.jpeg");
+    background-repeat: no-repeat;
+}
+.container{
+    margin:auto;
+}
+h1{
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#ffffff;
+}
+.calci{
+    height:500px;
+    background:#3d4543;
+    padding:10px;
+    border-radius:20px;
+    display:inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -260px 0 0 -210px;
+}
+#answer{
+    background:#bccd95;
+    width:370px;
+    height:80px;
+    color:#000;
+    border-radius:10px;
+    padding-right:10px;
+    margin-bottom:18px;
+    text-align:right;
+    letter-spacing:1px;
+}
+input{
+    font-size:30px;
+    width:65px;
+    height:55px;
+    color:#ffffff;
+    background:#6f6f6f;
+    border-radius:32px;
+    margin:5px;
+    outline:none;
+    border:0px solid;
+    border: .18rem groove #000000;
+}
+input[type="button"]:hover{
+    cursor:pointer;
+    background:#ffffff;
+    color:#000000;
+}
+.btn-AC{
+    background-color:#ff0000;
+}
+.btn-EQUAL{
+    background-color:#008000;
+}
