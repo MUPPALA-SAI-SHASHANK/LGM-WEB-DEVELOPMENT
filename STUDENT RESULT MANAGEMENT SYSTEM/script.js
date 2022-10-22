@@ -165,9 +165,3 @@ submit.addEventListener("click", function() {
     }); 
     
 }) 
-let navBtn = document.getElementById("nav-btn");
-navBtn.addEventListener("click", () => {
-  results.innerHTML = `<h1 class='load'>Scanning Users Data <span><i class="fa fa-spinner fa-spin" style="font-size:24px"></i></span></h1>`;
-  setTimeout(() => {
-  }, 2000);
-});
